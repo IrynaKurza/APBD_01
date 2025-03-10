@@ -20,7 +20,7 @@ Console.WriteLine("max: " + Calculator.FindMax(arr)); //output: 5
 public static class Calculator
 {
     //task 3: calculate average
-    public static double CalculateAverage(int[] values)
+    public static double CalculateAverage(int[] numbers)
     {
         if (values == null || values.Length == 0)
             throw new ArgumentException("Array cannot be null or empty.");
