@@ -20,12 +20,12 @@ Console.WriteLine("max: " + Calculator.FindMax(arr)); //output: 5
 public static class Calculator
 {
     //task 3: calculate average
-    public static double CalculateAverage(int[] numbers)
+    public static double CalculateAverage(int[] inputNumbers)
     {
-        if (numbers == null || numbers.Length == 0)
+        if (inputNumbers == null || inputNumbers.Length == 0)
             throw new ArgumentException("Array cannot be null or empty.");
 
-        return numbers.Average(); //C# has a built-in average function
+        return inputNumbers.Average(); //C# has a built-in average function
     }
 
 
